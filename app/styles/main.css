@@ -15,15 +15,14 @@ body {
  .chat-rooms {
      right: 0%;
      width: 15%;
-     background: #003366;
+     background: #FFF2BB;
      position: fixed;
      height: 100%;
-     color: white;
      text-align: right;
  }
  
  .hr {
    padding-top: 5px;
    margin-top: 10px;
- 	border-top: 3px solid white;
+   border-top: 3px solid white;
  }

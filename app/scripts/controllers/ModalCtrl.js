@@ -1,4 +1,4 @@
-function() {
+(function() {
     function ModalCtrl($scope, $uibModalInstance){
         $scope.text = "";
 
@@ -15,4 +15,3 @@ function() {
         .module('blocChat')
         .controller('ModalCtrl', ['$scope', '$uibModalInstance', ModalCtrl])
 })();
-
