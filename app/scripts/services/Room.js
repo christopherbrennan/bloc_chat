@@ -8,7 +8,6 @@
       rooms.$add({name: newRoom});
     };
 
-
     return {
         all: rooms,
         createRoom: addChatRoom
