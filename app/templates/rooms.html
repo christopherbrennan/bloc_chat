@@ -1,19 +1,23 @@
 <section class="chat-rooms container clearfix">
-   <h1>Bloc Chat</h1>
-    <form ng-submit="sayHello()">
-    <div>
+   <h1 class="app-heading">Bloc Chat</h1>
+   <form ng-submit="addNewRoom(newRoomName)">
+   <div>
         <label for="name">Create Chat Room</label>
-        <input type="text" id="name" name="user_name" ng-model="newRoomName">
+        <input type="text" id="name" name="room-name" ng-model="newRoomName">
+   </div>
+   </form>
+   <div class="hr">
+   </div>
+   <div class="column fourth">
+    <div class="rooms" ng-repeat="room in allRooms">
+             <h4 class="chat-rooms-list" ng-click="setRoom(room)">{{ room.name }}</h4>
     </div>
-   <button class="btn-sm btn-success" type="submit">Create Chat Room</button>
-    </form>
-   <div class="hr"></div>
-     <div class="column fourth">
-         <div class="rooms" ng-repeat="room in allRooms">
-             <h4>{{ room.name }}</h4>
-         </div>
-     </div>
-  </section>
+   </div>
+</section>
+
+
+
+
 
 <!--
 

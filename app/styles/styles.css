@@ -7,15 +7,22 @@ body {
    padding-bottom: 200px;
  }
 
+.app-heading {
+    color: white;
+    font-size: 3em;
+  }
+
 h1 {
-  color: white;
+  color: black;
+  text-align: center;
   font-size: 3em;
+  font-family: monospace;
 }
 
 .chat-rooms {
-  right: 0%;
-  width: 15%;
-  background: #FFE799;
+  right: 10px;
+  width: 18%;
+  background: #003366;
   position: fixed;
   height: 100%;
   color: white;
@@ -25,5 +32,45 @@ h1 {
 .hr {
   padding-top: 5px;
   margin-top: 10px;
-  border-top: 3px solid white;
+  border-top: 2px solid black;
+}
+
+.chat-screen {
+  margin-left: 10%;
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  color: grey;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  opacity: 0.75;
+}
+.hr-grey {
+  padding-top: 5px;
+  margin-top: 10px;
+	border-top: 3px solid grey;
+}
+
+.chat-heading {
+  padding-top: 20px;
+}
+
+.input-group {
+  padding-top: 10px;
+}
+
+.messages {
+  margin-top: 10px;
+}
+
+h4 {
+    color: black;
+    font-family: sans-serif;
+}
+
+button.btn-sm.btn-success {
+    background-color:cadetblue;
+    color: antiquewhite;
+    margin-right: 85px;
 }
